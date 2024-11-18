@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Doto;
+    src: url(../fonts/Doto/Doto-VariableFont_ROND\,wght.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url(../images/starbucks.png);
+    opacity: 1;
+}
+
+
+html {
+    background-color: antiquewhite;
+}
+
+#navigation-section li {
+    font-style: oblique;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(114, 67, 24);
+    font-family: Doto;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(160, 117, 0);
+    font-family: Oswald
+}
+
+h3 {
+    color: rgb(107, 86, 16);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#what-to-expect-section>h2 {
+    text-shadow: -3px 5px 2px rgb(241, 179, 179);
+}
+
+#coffee-brewing p {
+    font-style: italic;
+}
