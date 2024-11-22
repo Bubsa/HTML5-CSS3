@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+section.upper-row {
+    position: relative;
+}
+
+
+
+  .upper-row-left {
+    position: relative;
+    background-color: #e5eeeb;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    width: 175px;
+    height: 80px;
+  }
+
+  .upper-row-middle {
+    position: absolute;
+    background-color: #f2e7d5;
+    width: 200px;
+    height: 85px;
+    left: 173px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    top: -5px;
+  }
+
+.upper-row-right {
+    background-color: #f2c968;
+    position: absolute;
+    width: 233px;
+    height: 80px;
+    left: 368px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    top: 0px;
+}
+
+.upper-column-far-right {
+    background-color: #fcfde7;
+    position: absolute;
+    left: 600px;
+    bottom: 500px;
+    width: 50px;
+    height: 544px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+
+section.second-row {
+    position: relative;
+}
+
+
+.second-row-left {
+    position: absolute;
+    background-color: #fbfde7;
+    width: 75px;
+    height: 150px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+}
+
+.second-row-mid {
+    position: absolute;
+    background-color: #d62d24;
+    width: 330px;
+    height: 300px;
+    left: 75px;
+    border-bottom: 5px solid black;
+    border-right: 8px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.second-row-right {
+    position: absolute;
+    background-color: #edcc6b;
+    width: 202px;
+    height: 150px;
+    left: 401px;
+    border-bottom: 5px solid black;
+    border-right: 8px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+section.third-row {
+    position: relative;
+}
+
+.third-row-left {
+    position: absolute;
+    background-color: #e1eae5;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    width: 75px;
+    height: 230px;
+    top: 150px;
+}
+
+.third-row-after-red {
+    position: absolute;
+    background-color: #dfe5d0;
+    border: 5px solid black;
+    width: 100px;
+    height: 150px;
+    left: 400px;
+    top: 150px;
+}
+
+.third-row-farthest {
+    position: absolute;
+    background-color: #f2eee2;
+    border: 5px solid black;
+    width: 100px;
+    height: 150px;
+    left: 500px;
+    top: 150px;
+}
+
+.third-row-plum {
+    position: absolute;
+    background-color: #130409;
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    left: 75px;
+    top: 300px;
+}
+
+.third-row-grayish {
+    position: absolute;
+    background-color: #c0bfba;
+    border: 5px solid black;
+    width: 177px;
+    height: 75px;
+    left: 225px;
+    top: 300px;
+}
+
+.third-row-metalic {
+    position: absolute;
+    background-color: #d6dee0;
+    border: 5px solid black;
+    width: 200px;
+    height: 75px;
+    left: 400px;
+    top: 300px;
+}
+
+section.fourth-row {
+    position: relative;
+}
+
+.fourth-row-left {
+    position: absolute;
+    background-color: #f4c65a;
+    width: 75px;
+    height: 143px;
+    border: 5px solid black;
+    top: 460px;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.fourth-row-beige {
+    position: absolute;
+    background-color: #e3ded9;
+    border: 5px solid black;
+    width: 151px;
+    height: 75px;
+    left: 74px;
+    top: 528px;
+}
+
+.fourth-row-long {
+    position: absolute;
+    background-color: #e0e0df;
+    border: 5px solid black;
+    border-bottom: 0;
+    width: 373px;
+    height: 25px;
+    left: 223px;
+    top: 578px;
+}
+
+.fourth-row-middle {
+    position: absolute;
+    background-color: #dee2d4;
+    border: 5px solid black;
+    width: 180px;
+    height: 80px;
+    left: 224px;
+    top: 450px;
+}
+
+.fourth-row-middle-below {
+    position: absolute;
+    background-color: #0b0205;
+    border: 5px solid black;
+    width: 180px;
+    height: 50px;
+    left: 224px;
+    top: 529px;
+}
+
+.fourth-row-blue {
+    position: absolute;
+    background-color: #241785;
+    border: 5px solid black;
+    width: 196px;
+    height: 130px;
+    left: 400px;
+    top: 451px;
+}
+
+.fourth-row-red {
+    position: absolute;
+    background-color: #d73630;
+    left: 595px;
+    bottom: 352px;
+    width: 55px;
+    height: 150px;
+    border-top: 5px solid black;
+    border-left: 7px solid black;
+}
